@@ -1,0 +1,16 @@
+@mixin textInMainImg(
+  $width: 625,
+  $font-weight: 700,
+  $font-size: 79px,
+  $line-height: 90.84px,
+  $top: 238px
+) {
+  width: $width;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $inMainImg-TextsColor;
+  position: absolute;
+  top: $top;
+  left: calc(50% - #{$width} / 2);
+}
