@@ -202,6 +202,7 @@ main h6 {
 
 #footer {
   margin-top: 84px;
+  margin-bottom: 140px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
